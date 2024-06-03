@@ -12,4 +12,9 @@ int main()
         cout << data.at(5) << endl;
 
     }
+    catch (exception& e) {
+        cout << e.what() << endl;
+    }
+
+    cout << "Baris program yang terakhir" << endl;
 }
