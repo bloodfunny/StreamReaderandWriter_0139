@@ -21,7 +21,8 @@ int main()
 		cout << "- ";
 		getline(cin, baris);
 		if (baris == "q") break;
-		
+		outfile << baris << endl;
+
 	}
 }
 
