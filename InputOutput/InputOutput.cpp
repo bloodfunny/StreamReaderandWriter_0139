@@ -22,5 +22,9 @@ int main() {
     }
 
     outfile.close();
+
+
+    ifstream infile;
+    infile.open("Contohfile.txt");
 }
 
