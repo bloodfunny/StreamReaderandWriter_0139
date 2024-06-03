@@ -12,6 +12,7 @@ int main()
 	cout << "Masukan nama file : ";
 	cin >> NamaFile;
 
-
+	ofstream outfile;
+	outfile.open(NamaFile + ".txt", ios::out);
 }
 
