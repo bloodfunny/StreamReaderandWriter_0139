@@ -11,6 +11,9 @@ int main()
         cout << "Pernyataan tidak akan dieksekusi" << endl;
 
     }
+    catch (int a) {
+        cout << "Pengecualian akan dieksekusi" << endl;
+    }
    
 }
 
